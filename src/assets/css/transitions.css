@@ -1,0 +1,7 @@
+/* Declare transition variables here and import in main index.css file */
+:root {
+  /* TIMES */
+  --transition-fast: 0.2s;
+  --transition-normal: 0.35s;
+  --transition-slow: 0.8s;
+}

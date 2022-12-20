@@ -1,0 +1,45 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+}
+
+.boxContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  flex-direction: column;
+  padding: 25px;
+  width: 35vw;
+  height: 35vh;
+  margin: 30px;
+  background-color: var(--light);
+  border-radius: var(--border-radius);
+}
+
+.title {
+  font-size: var(--font-size-xlarge);
+  margin: 30px 0px;
+  align-self: center;
+}
+
+.text {
+  /* font-size: var(--font-size-xlarge); */
+  margin: 5px 0px;
+}
+
+.signInButton {
+  margin: 50px 0px;
+
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.googleIcon {
+  padding-right: 50px;
+}

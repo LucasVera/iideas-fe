@@ -1,0 +1,45 @@
+.btn {
+  border-radius: var(--border-radius);
+}
+
+.btnSmall {
+  padding: 5px;
+  font-size: var(--font-size-small);
+}
+.btnMedium {
+  padding: 8px;
+  font-size: var(--font-size-medium);
+}
+.btnLarge {
+  padding: 10px 18px;
+  font-size: var(--font-size-large);
+}
+
+.lightText {
+  color: var(--light);
+}
+.darkText {
+  color: var(--dark);
+}
+
+.bgPrimary {
+  background-color: var(--primary);
+  transition: var(--transition-normal);
+}
+.bgPrimary:hover {
+  background-color: var(--primary-lightened);
+}
+.bgSecondary {
+  background-color: var(--secondary);
+  transition: var(--transition-normal);
+}
+.bgSecondary:hover {
+  background-color: var(--secondary-lightened);
+}
+.bgTertiary {
+  background-color: var(--tertiary);
+  transition: var(--transition-normal);
+}
+.bgTertiary:hover {
+  background-color: var(--tertiary-darkened);
+}

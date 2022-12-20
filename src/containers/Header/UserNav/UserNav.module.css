@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.userIcon {
+  padding-right: 5px;
+}
+
+.emailText {
+  margin-bottom: 1px;
+}
+
+.dropdownHeader {
+  margin-bottom: 5px;
+}

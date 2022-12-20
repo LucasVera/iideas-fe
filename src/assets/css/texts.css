@@ -1,0 +1,14 @@
+/* Declare text variables here and import in main index.css file */
+:root {
+  /* SIZES */
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-large: 24px;
+  --font-size-xlarge: 32px;
+
+  /* FONT-WEIGHT */
+  --font-weight-normal: 500;
+  --font-weight-bold: 700;
+
+
+}

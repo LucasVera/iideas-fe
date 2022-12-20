@@ -1,13 +1,35 @@
+@import './assets/css/colors.css';
+@import './assets/css/texts.css';
+@import './assets/css/transitions.css';
+@import './assets/css/utils.css';
+
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-medium);
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: white;
+  color: black;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--tertiary);
+  transition: var(--transition-normal);
+}
+a:hover {
+  color: var(--tertiary-lightened);
 }

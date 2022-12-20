@@ -1,0 +1,22 @@
+.container {
+  /* display: flex; */
+  /* width: 300px; */
+  border-bottom: 1px solid var(--dark);
+  /* width: 100%; */
+  background-color: var(--light);
+  color: var(--secondary);
+  padding: 25px;
+
+  /* justify-content: end;
+  align-items: flex-end; */
+}
+
+.container:hover {
+  background-color: var(--tertiary);
+  color: var(--secondary-darkened);
+  transition: 0.5s;
+}
+
+.item {
+  /* color: var(--secondary); */
+}

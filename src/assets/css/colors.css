@@ -1,0 +1,19 @@
+/* Declare color variables here and import in main index.css file */
+:root {
+  /* MAIN COLORS */
+  --primary: #336959;
+  --secondary: #384642;
+  --tertiary: #7adabd;
+  --light: #ddeee9;
+  --dark: #212524;
+  --warning: #6b6900;
+  --error: #6b0700;
+
+  /* DERIVED COLORS*/
+  --primary-lightened: #3c7c69;
+  --primary-darkened: #2d5e4f;
+  --secondary-lightened: #526660;
+  --secondary-darkened: #28312e;
+  --tertiary-lightened: #83e9ca;
+  --tertiary-darkened: #6ec5ab;
+}
